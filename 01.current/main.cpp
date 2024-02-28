@@ -15,10 +15,10 @@ class Rectangle{
 
 class Circle{
     public: 
-        double ray {0.5};
+        double radius {0.5};
 
     double area(void){
-        return 2*PI*ray;
+        return 2*PI*radius;
     }
 };
 
@@ -29,5 +29,7 @@ int main(){
     Circle c1;
     cout <<"Area of c1 : "<<c1.area()<<endl;
 
+
     return 0;
 }
+
